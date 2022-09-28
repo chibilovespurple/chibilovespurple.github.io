@@ -7,7 +7,12 @@ body {
 img {
   width: 300px;
 }
-
+a {
+  color: orange;
+}
+a:hover {
+  text-decoration: none;
+}
 /* Profile
 -----------------------------*/
 header {
@@ -21,7 +26,16 @@ header {
 .projects {
   background: #F7FFF7;
 }
-
+.projects a {
+  color: white;
+  background: darkblue;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+.projects a:hover {
+  background: rgba(47,48,97,0.8);
+}
 
 /* Work Experience
 -----------------------------*/
@@ -29,9 +43,15 @@ header {
   background: #A1C6D7;
 }
 
+}
+.work-experience a:hover {
+  text-decoration: none;
+}
+
 /* Contact Info
 -----------------------------*/
 footer {
   background: #343434;
   color: white;
+
 }
