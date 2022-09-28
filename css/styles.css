@@ -42,7 +42,9 @@ header {
 .work-experience {
   background: #A1C6D7;
 }
-
+.work-experience a {
+  color: darkblue;
+}
 }
 .work-experience a:hover {
   text-decoration: none;
