@@ -50,6 +50,7 @@ h3 {
 header {
   background: #2F3061;
   color: white;
+  text-align: center;
 }
 
 
@@ -87,7 +88,6 @@ header {
 .work-experience a {
   color: darkblue;
 }
-}
 .work-experience a:hover {
   text-decoration: none;
 }
@@ -97,5 +97,15 @@ header {
 footer {
   background: #343434;
   color: white;
-
+  text-align: center;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
 }
