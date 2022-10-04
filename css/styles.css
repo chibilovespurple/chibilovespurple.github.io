@@ -38,12 +38,26 @@ h1 {
 }
 h3 {
   line-height: 1.5;
+  margin-bottom: 0;
 
+}
+h3 + p {
+  font-style: italic;
+}
+h3 ~ p {
+  margin: 0;
 }
 .content-wrap {
   width: 900px;
   margin: 0 auto;
   padding: 40px 0;
+}
+.divider > section {
+  border-bottom: 1px dashed darkgray;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
 }
 /* Profile
 -----------------------------*/
@@ -72,8 +86,7 @@ header {
 }
 .project-item {
   overflow: hidden;
-  border-bottom: 1px dashed darkgray;
-  padding: 25px 0;
+
 }
 .project-item img {
   float: left;
