@@ -41,7 +41,7 @@ h3 {
 
 }
 .content-wrap {
-  width: 800px;
+  width: 900px;
   margin: 0 auto;
   padding: 40px 0;
 }
@@ -90,6 +90,10 @@ header {
 }
 .work-experience a:hover {
   text-decoration: none;
+}
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 /* Contact Info
