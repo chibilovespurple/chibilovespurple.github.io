@@ -48,7 +48,8 @@ h3 ~ p {
   margin: 0;
 }
 .content-wrap {
-  width: 900px;
+  max-width: 900px;
+  width: 85%;
   margin: 0 auto;
   padding: 40px 0;
 }
@@ -107,6 +108,14 @@ header {
 .job-item {
   display: grid;
   grid-template-columns: 1fr 2fr;
+}
+
+/* Education
+-----------------------------*/
+.education {
+  background-image: url(../images/4.jpg);
+  background-size: cover;
+  background-position: top right;
 }
 
 /* Contact Info
